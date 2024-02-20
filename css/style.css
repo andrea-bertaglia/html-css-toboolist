@@ -7,8 +7,14 @@
 
 /* COMMON */
 .container {
+    background-color: rgb(237 242 247);
     width: 80%;
     margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.mt-30 {
+    margin-top: 30px;
 }
 
 /* HEADER */
@@ -19,3 +25,29 @@
 }
 
 /* MAIN */
+
+.container .search-box {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 0px rgb(239 239 239);
+    text-align: center;
+}
+
+.text {
+    padding: 7px;
+    font-size: 10px;
+    color: rgb(172, 171, 171);
+    width: 40%;
+    border-radius: 5%;
+    border: 1px solid grey;
+    
+}
+
+.search-button {
+    padding: 7px;
+    font-size: 10px;
+    background-color: rgb(19 170 245);
+    color: white;
+    border-radius: 5%;
+    border: 1px solid grey;
+}
